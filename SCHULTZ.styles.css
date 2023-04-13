@@ -289,31 +289,41 @@ section{
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 @media screen and (max-width: 480px) {
-  img{
+  img {
     width: 150px;
     max-width: 150px;
   }
 }
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  img{
+  img {
     width: 200px;
     max-width: 200px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  img{
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  img {
     width: 250px;
     max-width: 250px;
   }
 }
-@media screen and (min-width: 1201px) {
-  img{
+
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  img {
     width: 300px;
     max-width: 300px;
   }
-} 
-/* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
+}
 
+@media screen and (min-width: 1440px) {
+  img {
+    width: 350px;
+    max-width: 350px;
+  }
+}
+
+/* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
 
@@ -389,3 +399,4 @@ section{
   }
 }
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
+
